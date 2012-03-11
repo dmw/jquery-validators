@@ -55,9 +55,8 @@ $('#user_rut, #user_dv').addValidator({
 Option Description
 ---
 
-|----------------------------------------------------------------------------------------------------------------------|
 |Option             | Description                                                                                      |
-|-------------------|-------------------------------------------------------------------------------------------------:|
+|------------------:|:-------------------------------------------------------------------------------------------------|
 |border_color       | border color for the validation message.                                                         |
 |background_color   | background color for the validation message.                                                     |
 |foreground_color   | font color for the validation message.                                                           |
@@ -79,15 +78,14 @@ Option Description
 |allow_empty        | allow empty values with true, false requires a value.                                            |
 |custom_message     | custom validation message, to use with &#8216;regex&#8217; and &#8216;custom&#8217; validators.  |                                                              |
 |event              | overrides the default <i>focusout</i> and <i>change</i> events to validate the control.          |                                                      |
-|----------------------------------------------------------------------------------------------------------------------|
 
 
 Available Validators Types
 ---
 
-------------------------------------------------------------------------------------------------|
+
 | Type             | Description                                                                |
------------------------------------------------------------------------------------------------:|
+|-----------------:|:---------------------------------------------------------------------------|
 | integer          | /[0-9]+/gi expression.                                                     |
 | float            | /[0-9]+\.[0-9]+/gi expression.                                             |
 | letters          | /[a-z]+/gi expression.                                                     |
@@ -112,15 +110,13 @@ Available Validators Types
 | iso_date         | validates ISO Date formats.                                                |
 | date             | validates dates in yyyy-mm-dd format.                                      |
 | custom           | custom validation callback.                                                |
-|-----------------------------------------------------------------------------------------------|
 
 
 Available Option Defaults
 ---
 
-|---------------------------------------------|
 | Option                | Value               |
-|--------------------------------------------:|
+|----------------------:|--------------------:|
 | border_color          | #e00                |
 | background_color      | #900                |
 | foreground_color      | #fff                |
@@ -142,7 +138,6 @@ Available Option Defaults
 | allow_empty           | false               |
 | custom_message        | false               |
 | event                 | false               |
-|---------------------------------------------|
 
 
 Related Webpages
