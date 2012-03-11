@@ -55,7 +55,7 @@ $('#user_rut, #user_dv').addValidator({
 Option Description
 ---
 
-------------------------------------------------------------------------------------------------------------------------
+|----------------------------------------------------------------------------------------------------------------------|
 |Option             | Description                                                                                      |
 |-------------------|-------------------------------------------------------------------------------------------------:|
 |border_color       | border color for the validation message.                                                         |
@@ -79,7 +79,7 @@ Option Description
 |allow_empty        | allow empty values with true, false requires a value.                                            |
 |custom_message     | custom validation message, to use with &#8216;regex&#8217; and &#8216;custom&#8217; validators.  |                                                              |
 |event              | overrides the default <i>focusout</i> and <i>change</i> events to validate the control.          |                                                      |
-------------------------------------------------------------------------------------------------------------------------
+|----------------------------------------------------------------------------------------------------------------------|
 
 
 Available Validators Types
@@ -112,13 +112,13 @@ Available Validators Types
 | iso_date         | validates ISO Date formats.                                                |
 | date             | validates dates in yyyy-mm-dd format.                                      |
 | custom           | custom validation callback.                                                |
-------------------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|
 
 
 Available Option Defaults
 ---
 
------------------------------------------------
+|---------------------------------------------|
 | Option                | Value               |
 |--------------------------------------------:|
 | border_color          | #e00                |
@@ -142,7 +142,7 @@ Available Option Defaults
 | allow_empty           | false               |
 | custom_message        | false               |
 | event                 | false               |
-----------------------------------------------|
+|---------------------------------------------|
 
 
 Related Webpages
