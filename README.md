@@ -52,64 +52,10 @@ $('#user_rut, #user_dv').addValidator({
 
 ```
 
-Available Validators
----
-
-* integer validator, /[0-9]+/gi expression.
-* float validator, /[0-9]+\.[0-9]+/gi expression.
-* letters validator, /[a-z]+/gi expression.
-* alphanum validator, /[a-z0-9]+/gi expression.
-* email validator.
-* alphacode validator, /[0-9a-z\._-]+/gi expression.
-* code validator, /[0-9\._-]+/gi expression.
-* notempty validator, /^.+$/gi expression.
-* empty validator, /^$/gi expression.
-* rutdv validator, /^[0-9K]$/g expression.
-* selected validator, not empty value and selectedIndex different from zero con select controls.
-* zip validator, /^[0-9]{5,15}$/g expression.
-* zip4 validator, /^[0-9]{4,4}$/g expression.
-* deliverylocation validator, /^[0-9]{2,2}$/g expression.
-* phone validator, +country_code (area_code) phone_number expression.
-* regex validator, custom regular expression validator.
-* http_url validator, validates HTTP urls.
-* ftp_url validator, validates FTP urls.
-* any_url validator, validates URL (URI) urls.
-* twitter_id validator, validates Twitter IDs.
-* iso_timestamp validator, validates ISO Timestamps.
-* iso_date validator, validates ISO Date formats.
-* date validator, validates dates in yyyy-mm-dd format.
-* custom validation messages, custom validation messages.
-
-
-Available Option Defaults
----
-
-* border_color → ‘#e00′
-* background_color → ‘#900′
-* foreground_color → ‘#fff’
-* border_width → ’2px’
-* messages → _available_messages
-* form_selector → ‘form’
-* form_event → ‘submit’
-* type → ‘notempty’
-* padding → ’2px’
-* margin → ’2px’
-* display → ‘inline’
-* len → false
-* minl → false
-* maxl → false
-* exactlen → false
-* regex → false
-* custom → false
-* language → ‘es’
-* allow_empty → false
-* custom_message → false
-* event → false
-
-
 Option Description
 ---
 
+------------------------------------------------------------------------------------------------------------------------
 |Option             | Description                                                                                      |
 |-------------------|-------------------------------------------------------------------------------------------------:|
 |border_color       | border color for the validation message.                                                         |
@@ -136,6 +82,69 @@ Option Description
 ------------------------------------------------------------------------------------------------------------------------
 
 
+Available Validators Types
+---
+
+------------------------------------------------------------------------------------------------|
+| Type             | Description                                                                |
+-----------------------------------------------------------------------------------------------:|
+| integer          | /[0-9]+/gi expression.                                                     |
+| float            | /[0-9]+\.[0-9]+/gi expression.                                             |
+| letters          | /[a-z]+/gi expression.                                                     |
+| alphanum         | /[a-z0-9]+/gi expression.                                                  |
+| email            | email validation                                                           |
+| alphacode        | /[0-9a-z\._-]+/gi expression.                                              |
+| code             | /[0-9\._-]+/gi expression.                                                 |
+| notempty         | /^.+$/gi expression.                                                       |
+| empty            | /^$/gi expression.                                                         |
+| rutdv            | /^[0-9K]$/g expression.                                                    |
+| selected         | not empty value and selectedIndex different from zero con select controls. |
+| zip              | /^[0-9]{5,15}$/g expression.                                               |
+| zip4             | /^[0-9]{4,4}$/g expression.                                                |
+| deliverylocation | /^[0-9]{2,2}$/g expression.                                                |
+| phone            | +country_code (area_code) phone_number expression.                         |
+| regex            | custom regular expression validator.                                       |
+| http_url         | validates HTTP urls.                                                       |
+| ftp_url          | validates FTP urls.                                                        |
+| any_url          | validates URL (URI) urls.                                                  |
+| twitter_id       | validates Twitter IDs.                                                     |
+| iso_timestamp    | validates ISO Timestamps.                                                  |
+| iso_date         | validates ISO Date formats.                                                |
+| date             | validates dates in yyyy-mm-dd format.                                      |
+| custom           | custom validation callback.                                                |
+------------------------------------------------------------------------------------------------|
+
+
+Available Option Defaults
+---
+
+-----------------------------------------------
+| Option                | Value               |
+|--------------------------------------------:|
+| border_color          | #e00                |
+| background_color      | #900                |
+| foreground_color      | #fff                |
+| border_width          | 2px                 |
+| messages              | _available_messages |
+| form_selector         | form                | 
+| form_event            | submit              |
+| type                  | notempty            |
+| padding               | 2px                 |
+| margin                | 2px                 |
+| display               | inline              |
+| len                   | false               |
+| minl                  | false               |
+| maxl                  | false               |
+| exactlen              | false               |
+| regex                 | false               |
+| custom                | false               |
+| language              | es                  |
+| allow_empty           | false               |
+| custom_message        | false               |
+| event                 | false               |
+----------------------------------------------|
+
+
 Related Webpages
 ---
 
@@ -147,6 +156,6 @@ Authors
 
 * Copyright (c) 2010 [Daniel Molina Wegener](https://github.com/dmw) [coder.cl](http://coder.cl/)
 * Copyright (c) 2011 [Daniel Molina Wegener](https://github.com/dmw) [coder.cl](http://coder.cl/)
-* Copyright (c) 2011 Anton Norko <anton dot norko at gmail dot com>
+* Copyright (c) 2011 Anton Norko [anton dot norko at gmail dot com](mailto:)
 * Copyright (c) 2012 [Daniel Molina Wegener](https://github.com/dmw) [coder.cl](http://coder.cl/)
 
